@@ -1,5 +1,4 @@
-### Idea of this project: 
-What is a subsistence cost diet?
+# Idea of this project: What is a subsistence cost diet?
 
 What kinds of populations might this be relevant for?
  - country going through famine
@@ -65,6 +64,19 @@ $Ax \geq b$
 where $b$ is a vector of recommendations about *minimum* amounts of different nutrients. And we can do this for greater than or equal to or less than or equal to. 
 
 So, we'll introduce code which we can use to solve linear programs given inputs ($\tilde A$, $\tilde b$, c). 
-- where $\tilde A$ is the dietary parameters,
-- $\tilde b$ is the vector of restrictions,
-- c is the ____
+- where $\tilde A$ is the dietary parameters, $\tilde b$ is the vector of restrictions, c is the ____
+
+
+# Goals of the Project: 
+With growing population, everyone has to eat. The idea of the project is to characterize *subsistence* diets that deliver adequate nutrition to a given person. Formally, we're looking for *minimum cost* subsistence diets. 
+
+Deliverables for Project 2: 
+- [A] Description of population of interest: in this case, doing comparisons is going to be more meaningful (see his examples)
+   - Ideas: California versus more rural state 
+- [A] Dietary Reference Intakes: write a function that takes as arguments the characteristics of a given person (age, sex) and returns a Pandas.series of Dietary Reference Intakes (DRIs) or "Recommended Daily Allowances" (RDAs) of a variety of nutrients appropriate for the population of interest
+- [A] Data on prices for different foods: construct a Google Spreadsheet of different prices for different kinds of food, keyed to the USDA's *Food Data Central* database
+  - This is going to require a certain amount of data collection (there is no central location for food prices for different populations)
+- [A] Nutritional content of different foods
+- [A] Solution: what is the minimum cost diet for the population you're concerned with? How much does it cost, and what does it consist of?
+
+[B] Deliverables.... 
