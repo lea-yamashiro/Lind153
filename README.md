@@ -24,7 +24,7 @@ Walking through steps of the project:
 2. History: problem was first "solved" by Stigler (1945) for a set of foods and prices and RDI requirements (Dantzig 1990) for an entertaining discussion of what "solved" meant in that context
    - he created a "linear program"
    - where you have some vector, that looks like
-     $ min_x (price)x$
+     $min_x(price)x$
      such that
      matrix $[A, -A] x \geq [b, -b]$
    - Berkeley story: 
