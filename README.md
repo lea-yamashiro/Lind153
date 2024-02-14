@@ -9,5 +9,7 @@ What kinds of populations might this be relevant for?
  - isolated areas, like rural areas
  - refugees, refugee camps 
  - prisons: making sure prisoners are adequately nourished but minimize cost 
- - food deserts? 
+ - food deserts?
+ - Schools?
+ - Military
 
