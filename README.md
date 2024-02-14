@@ -52,4 +52,19 @@ Taking the inner product of the price and quantities vectors:
 Then we have constraints. Each unit of a given kind of food is assumed to provide a set of nutrients 
 - suppose $m$ nutrients, then let $A$ be a matrix with $m$ rows, and $n$ columns describing the nutritional content of a single unit of each kind of food
 - Different sources of "recommendations" regarding nutrition
-   - Equalities: 
+   - Equalities: female in her twenties "should consume ____ amount of ____" 
+   - Inequalities: female in her twenties "should consume *less* than ____ amount of ____"
+- This survey is by the USDA. Why would this be important? 
+   - Product nutirtional contents differ...
+   - This survey is conducted in the US
+ 
+Continuing Matrix: 
+
+We can write these constraints as something like 
+$Ax \geq b$
+where $b$ is a vector of recommendations about *minimum* amounts of different nutrients. And we can do this for greater than or equal to or less than or equal to. 
+
+So, we'll introduce code which we can use to solve linear programs given inputs ($\tilde A$, $\tilde b$, c). 
+- where $\tilde A$ is the dietary parameters,
+- $\tilde b$ is the vector of restrictions,
+- c is the ____
