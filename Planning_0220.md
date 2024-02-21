@@ -5,5 +5,5 @@ Things we need to do before we can do any analysis:
 - Actually record the prices for these foods in each area we're looking at (Safeway prices)
 
 Then: 
-- Create the initial [A] deliverable function that returns the diet (from the notebook \textittt{diet_problem})
-- Then use the linear program to get more accurate and broader inference using the notebook \textittt{diet_problem2})
+- Create the initial [A] deliverable function that returns the diet (from the notebook "diet_problem.ipynb")
+- Then use the linear program to get more accurate and broader inference using the notebook "diet_problem2.ipynb"
