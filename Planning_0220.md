@@ -15,3 +15,9 @@ Things we need to do before we can do any analysis:
 Then: 
 - Create the initial [A] deliverable function that returns the diet (from the notebook "diet_problem.ipynb")
 - Then use the linear program to get more accurate and broader inference using the notebook "diet_problem2.ipynb"
+
+Presntation
+Part 1: background on cities /cost of living? avg grocery stores per capita?
+Part 2: showing what we found w/code
+Part 3: minimum cost diet for both cities
+Part 4: comparisons drawn from both cities kinda tying back to part 1 here 
