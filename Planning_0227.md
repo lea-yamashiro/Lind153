@@ -15,3 +15,9 @@ Things we want to find:
 - Average rent prices, home prices?
     - Single family home in SF versus Bakersfield? 
     - Other possiblities here! 
+
+Presntation
+Part 1: background on cities 
+Part 2: showing what we found w/code
+Part 3: minimum cost diet for both cities
+Part 4: comparisons drawn from both cities kinda tying back to part 1 here 
